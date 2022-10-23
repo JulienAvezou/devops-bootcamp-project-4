@@ -73,4 +73,6 @@ as root user run: chmod 666 /var/run/docker.sock
 <img width="625" alt="25" src="https://user-images.githubusercontent.com/62488871/197352406-b1d76cce-e74e-4a21-a693-d286cfb07e9f.png">
 <img width="731" alt="26" src="https://user-images.githubusercontent.com/62488871/197352409-c59e6d4a-266f-46ce-bf1a-9a94d07a6ca0.png">
 
-
+23. Configure webhook to trigger pipeline jobs automatically 
+<img width="997" alt="Capture d’écran 2022-10-23 à 21 31 53" src="https://user-images.githubusercontent.com/62488871/197414488-d4a0bb86-fc6f-4df2-8b5b-15acca002fcd.png">
+<img width="797" alt="Capture d’écran 2022-10-23 à 21 35 18" src="https://user-images.githubusercontent.com/62488871/197414493-eb778850-cbd7-4bb9-b6ec-6517d6ea1b4f.png">
