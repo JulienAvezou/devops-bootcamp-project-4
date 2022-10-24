@@ -87,4 +87,8 @@ as root user run: chmod 666 /var/run/docker.sock
 <img width="459" alt="Capture d’écran 2022-10-24 à 21 01 14" src="https://user-images.githubusercontent.com/62488871/197605657-70ace434-027b-41e8-8f04-8ce3cfae79f5.png">
 <img width="1067" alt="Capture d’écran 2022-10-24 à 21 01 29" src="https://user-images.githubusercontent.com/62488871/197605670-797fdfc0-47ef-452a-b300-4ac1dac67ce8.png">
 
+25. commit git changes to the remote repo from Jenkins to persist app versioning
+<img width="1054" alt="Capture d’écran 2022-10-24 à 22 12 07" src="https://user-images.githubusercontent.com/62488871/197629971-81657661-a5c4-4abc-a19c-4cd310107ff2.png">
+<img width="941" alt="Capture d’écran 2022-10-24 à 23 11 42" src="https://user-images.githubusercontent.com/62488871/197630294-4fe1c9fa-aacc-45a6-b974-bfdb564c54f6.png">
 
+26. use plugin to identify git commits from Jenkins and ignore them when triggering automatic builds, preventing infinite loops
