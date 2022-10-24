@@ -76,3 +76,11 @@ as root user run: chmod 666 /var/run/docker.sock
 23. Configure webhook to trigger pipeline jobs automatically 
 <img width="997" alt="Capture d’écran 2022-10-23 à 21 31 53" src="https://user-images.githubusercontent.com/62488871/197414488-d4a0bb86-fc6f-4df2-8b5b-15acca002fcd.png">
 <img width="797" alt="Capture d’écran 2022-10-23 à 21 35 18" src="https://user-images.githubusercontent.com/62488871/197414493-eb778850-cbd7-4bb9-b6ec-6517d6ea1b4f.png">
+
+24. Automatically increment app version using Jenkins pipeline
+- parse and increment app version, store result in variable and use it to increment the Docker image tag
+<img width="1128" alt="Capture d’écran 2022-10-24 à 20 55 09" src="https://user-images.githubusercontent.com/62488871/197604898-ce0b877d-76e6-45ac-a328-a0682485af3b.png">
+<img width="488" alt="Capture d’écran 2022-10-24 à 21 00 38" src="https://user-images.githubusercontent.com/62488871/197604929-23151735-92a8-4412-b3e7-a0a4232d6a4f.png">
+
+- modify Dockerfile so that it builds from any jar file
+- clean packages so that Dockerfile builds image from the correct jar file
