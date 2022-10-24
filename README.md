@@ -81,6 +81,10 @@ as root user run: chmod 666 /var/run/docker.sock
 - parse and increment app version, store result in variable and use it to increment the Docker image tag
 <img width="1128" alt="Capture d’écran 2022-10-24 à 20 55 09" src="https://user-images.githubusercontent.com/62488871/197604898-ce0b877d-76e6-45ac-a328-a0682485af3b.png">
 <img width="488" alt="Capture d’écran 2022-10-24 à 21 00 38" src="https://user-images.githubusercontent.com/62488871/197604929-23151735-92a8-4412-b3e7-a0a4232d6a4f.png">
-
 - modify Dockerfile so that it builds from any jar file
+<img width="354" alt="Capture d’écran 2022-10-24 à 21 00 56" src="https://user-images.githubusercontent.com/62488871/197605576-d928ed82-bf61-4f80-b48c-50573f6b9171.png">
 - clean packages so that Dockerfile builds image from the correct jar file
+<img width="459" alt="Capture d’écran 2022-10-24 à 21 01 14" src="https://user-images.githubusercontent.com/62488871/197605657-70ace434-027b-41e8-8f04-8ce3cfae79f5.png">
+<img width="1067" alt="Capture d’écran 2022-10-24 à 21 01 29" src="https://user-images.githubusercontent.com/62488871/197605670-797fdfc0-47ef-452a-b300-4ac1dac67ce8.png">
+
+
